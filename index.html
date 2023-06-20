@@ -1,54 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>wumbowatcher</title>
-    <h1>hey. im wumbowatcher.</h1>
-    <style>
-   h1 {
-   font-family: courier new;
-   color:white;
-   font-size:30px;
-   }
-  </style>
-</head>
-<body style="background-color:black;">
-<script>
-function updateLocalTime() {
-    document.getElementById('localtime').innerText = new Date().toLocaleString('en-US', {
-        timeZone: 'America/New_York',
-        hour: 'numeric',
-        minute: 'numeric',
-        hour12: true
-    });
-}
+    <head>
+        <meta charset="UTF-8">
+        <title>wumbowatcher</title>
+        <h1>hey. im wumbowatcher.</h1>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
 
-setInterval(updateLocalTime, 1000);
-updateLocalTime();
-</script>
-<p>⠀⠀⠀about me:<br>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀age: minor
-    <br>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀sex: asexual male (he/him)
-    <br>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀timezone: est (its <span id="localtime">9:30 pm</span> for me lol)
-    <br>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀tetris player
-    <br>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀barely knows html and python
-    <br>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀likes epithet erased</p>
+    <body>
+        <p>about me:</p>
+        <ul class="hide-dots">
+            <li>age: minor</li>
+            <li>sex: asexual male (he/him)</li>
+            <li>timezone: est (its <span id="localtime">9:30 pm</span> for me lol)</li>
+            <li>tetris player</li>
+            <li>barely knows html and python</li>
+            <li>likes epithet erased</li>
+        </ul>
 
-<p>⠀⠀⠀social media shit:</p>
-
-<p></p>
-<p>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀-<a href="https://twitter.com/NameUnreal">twitter</a></p>
-<p>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀-<a href="https://ch.tetr.io/u/wumbowatcher">tetr.io</a></p>
-<p>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀-<a href="https://www.reddit.com/user/notaurank">reddit</a></p>
-<p>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀-<a href="https://github.com/wumbowatcher">github</a></p>
-<p>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀-<a href="https://replit.com/@thebirbofmurder">replit</a></p>
-<p>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀-<a href="https://www.youtube.com/channel/UC-z8T3Ff2yHcdAlWtT_fmVA">youtube</a></p>
-<p>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀-discord: wumbowatcher#4980</p>
-<style>
-    p {
-    font-family: courier new;
-   color:white;
-   font-size:18px;
-</style>
-
-</body>
+        <p>social media shit:</p>
+        <ul>
+            <li><a href="https://twitter.com/NameUnreal">twitter</a></li>
+            <li><a href="https://ch.tetr.io/u/wumbowatcher">tetr.io</a></li>
+            <li><a href="https://www.reddit.com/user/notaurank">reddit</a></li>
+            <li><a href="https://github.com/wumbowatcher">github</a></li>
+            <li><a href="https://replit.com/@thebirbofmurder">replit</a></li>
+            <li><a href="https://www.youtube.com/channel/UC-z8T3Ff2yHcdAlWtT_fmVA">youtube</a></li>
+            <li>discord: wumbowatcher#4980</li>
+        </ul>
+        <script src="script.js"></script> 
+    </body>
 </html>

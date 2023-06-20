@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+p, li {
+    font-family: courier new;
+    color:white;
+    font-size:18px;
+}
+
+h1 {
+    font-family: courier new;
+    color:white;
+    font-size:30px;
+}
+
+ul {
+    list-style-type: '- ';
+}
+
+li {
+    margin-left: 5rem;
+}
+
+.hide-dots {
+    list-style: none;
+}
